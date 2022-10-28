@@ -1,10 +1,8 @@
 :root {
-
     /*var Header*/
     --cor-background-header: #000000;
     --cor-text-header: #ffffff;
     /*Fim var Header*/
-
 }
 
 body {
@@ -23,7 +21,6 @@ a {
 }
 
 /*Inicio Header*/
-
 .header-bg {
     background-color: var(--cor-background-header);
 }
@@ -103,5 +100,4 @@ a {
         display: none;
     }
 }
-
 /*Final Header*/
