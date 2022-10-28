@@ -1,0 +1,7 @@
+:root {
+    --cor-background-header: #000;
+}
+
+.header-bg {
+    background-color: var(--cor-background-header);
+}
