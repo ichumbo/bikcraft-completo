@@ -1,8 +1,7 @@
 :root {
-    /*var Header*/
     --cor-background-1: #000000;
     --cor-text-1: #ffffff;
-    /*Fim var Header*/
+    --cor-text-2: #B2B2B2;
 }
 
 body {
@@ -136,5 +135,8 @@ img {
 
 .introduction p {
     margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--cor-text-2);
 }
 /*Fim Introduction*/
