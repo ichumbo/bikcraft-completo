@@ -2,6 +2,10 @@
     --cor-background-1: #000000;
     --cor-text-1: #ffffff;
     --cor-text-2: #B2B2B2;
+    --cor-text-3: #FFBB00;
+    --cor-button: linear-gradient(#FFBF00, #F2A50C);
+    --cor-button-hover: linear-gradient(#FFB60D, #E59317);
+    --cor-text-button: #332200;
 }
 
 body {
@@ -120,6 +124,12 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px 40px;
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .introduction-content {
@@ -133,10 +143,31 @@ img {
     line-height: 1.125;
 }
 
+.introduction h1 span {
+    color: var(--cor-text-3);
+}
+
 .introduction p {
     margin-bottom: 20px;
     font-size: 24px;
     line-height: 1.5;
     color: var(--cor-text-2);
+}
+
+.introduction a {
+    display: inline-block;
+    padding: 16px 32px;
+    background: var(--cor-button);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    text-transform: uppercase;
+    color: var(--cor-text-button);
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: bold;
+}
+
+.introduction a:hover {
+    background: var(--cor-button-hover);
 }
 /*Fim Introduction*/
