@@ -11,6 +11,7 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    height: 2000px;
 }
 
 h1,ul,p {
@@ -118,6 +119,7 @@ img {
 .introduction-bg {
     background: var(--cor-background-1);
     color: var(--cor-text-1);
+    box-shadow: 0 -120px #ffffff;
 }
 
 .introduction {
@@ -134,7 +136,13 @@ img {
 
 .introduction-content {
     align-self: end;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
+}
+
+.introduction img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
 }
 
 .introduction h1 {
