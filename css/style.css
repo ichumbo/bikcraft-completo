@@ -119,7 +119,7 @@ img {
 .introduction-bg {
     background: var(--cor-background-1);
     color: var(--cor-text-1);
-    box-shadow: 0 -120px #ffffff;
+    margin-bottom: -120px;
 }
 
 .introduction {
@@ -177,5 +177,11 @@ img {
 
 .introduction a:hover {
     background: var(--cor-button-hover);
+}
+
+@media (max-width: 1200px) {
+    .introduction h1 {
+        font-size: 48px;
+    }
 }
 /*Fim Introduction*/
