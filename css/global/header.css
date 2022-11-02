@@ -1,4 +1,4 @@
-/*Inicio Header*/
+
 .header-bg {
     background-color: var(--cor-background-1);
 }
@@ -80,4 +80,3 @@
         display: none;
     }
 }
-/*Fim Header*/

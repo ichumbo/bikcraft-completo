@@ -1,10 +1,17 @@
-/*CSS's*/
+/*Import's---------------------------------------------------------------------------------------------------------------------------------*/
 @import url(../css/global/header.css);
 @import url(../css/global/global.css);
+
+/*Home*/
 @import url(../css/home/introducao.css);
-/*Fontes*/
+
+/*Componentes*/
+@import url(../css/utilidades/componentes.css);
+
+/*Fontes-----------------------------------------------------------------------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
-/*Cores*/
+
+/*Cores------------------------------------------------------------------------------------------------------------------------------------*/
 :root {
     --cor-background-1: #000000;
     --cor-text-1: #ffffff;
