@@ -1,0 +1,10 @@
+/*Cores------------------------------------------------------------------------------------------------------------------------------------*/
+:root {
+    --cor-background-1: #000000;
+    --cor-text-1: #ffffff;
+    --cor-text-2: #B2B2B2;
+    --cor-text-3: #FFBB00;
+    --cor-button: linear-gradient(#FFBF00, #F2A50C);
+    --cor-button-hover: linear-gradient(#FFB60D, #E59317);
+    --cor-text-button: #332200;
+}

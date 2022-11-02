@@ -5,19 +5,11 @@
 /*Home*/
 @import url(../css/home/introducao.css);
 
-/*Componentes*/
+/*Utilidades*/
 @import url(../css/utilidades/componentes.css);
+@import url(../css/utilidades/tipografia.css);
+@import url(../css/utilidades/cores.css);
 
 /*Fontes-----------------------------------------------------------------------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
 
-/*Cores------------------------------------------------------------------------------------------------------------------------------------*/
-:root {
-    --cor-background-1: #000000;
-    --cor-text-1: #ffffff;
-    --cor-text-2: #B2B2B2;
-    --cor-text-3: #FFBB00;
-    --cor-button: linear-gradient(#FFBF00, #F2A50C);
-    --cor-button-hover: linear-gradient(#FFB60D, #E59317);
-    --cor-text-button: #332200;
-}
