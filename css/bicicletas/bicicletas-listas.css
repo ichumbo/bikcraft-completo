@@ -3,6 +3,21 @@ bikes-lists {
     padding-bottom: 120px;
 }
 
-bikes-lists ul {
+bikes-lists h2 {
+    margin-bottom: 40px;
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+bikes-lists ul {
+    display: flex;
+    gap: 40px;
+    padding: 0px 20px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
