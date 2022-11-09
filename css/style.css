@@ -4,6 +4,7 @@
 
 /*Home*/
 @import url(../css/home/introducao.css);
+@import url(../css/home/tecnologia.css);
 
 /*Utilidades*/
 @import url(../css/utilidades/componentes.css);
@@ -12,8 +13,9 @@
 
 /*Bicicletas*/
 @import url(../css/bicicletas/bicicletas-listas.css);
-@import url(./bicicletas/bicicletas-listas.css);
 
 /*Fontes-----------------------------------------------------------------------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+
 
