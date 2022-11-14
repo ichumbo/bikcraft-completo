@@ -53,3 +53,28 @@
     margin-bottom: 8px;
     width: 24px;
 }
+
+@media (max-width: 800px) {
+    .technology-bg {
+        box-shadow: initial;
+    }
+    .technology {
+        grid-template-columns: 1fr;
+    }
+    .technology-content {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .technology-image {
+        display: none;
+    }
+    .technology a {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .technology-benefits {
+        flex-direction: column;
+    }
+}
